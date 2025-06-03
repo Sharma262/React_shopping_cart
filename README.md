@@ -1,4 +1,5 @@
 # 🛍️ Simple Ecommerce Cart Application  
+[![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
 
 <p align="center">
   <img src="./readme-banner.png" alt="React Shopping Cart Banner" />
@@ -33,27 +34,5 @@ This project is a simple yet functional ecommerce cart built with **React**, **T
 Clone the repository:
 
 ```bash
-git clone https://github.com/Sharma262/React_shopping_cart.git
-cd React_shopping_cart
-
-##  Running the App
-
-To start the development server:
-$ npm start
-
-To build the production version:
-$ npm run build
-
-To run tests:
-$ npm run test
-
-
-📁 Project Structure
-
-src/
-├── components/        # Reusable components
-├── context/           # Global state using Context API
-├── pages/             # Main pages
-├── styles/            # Global and component styles
-├── utils/             # Helper functions
-└── App.tsx            # Root component
+git clone https://github.com/jeffersonRibeiro/react-shopping-cart.git
+cd react-shopping-cart
