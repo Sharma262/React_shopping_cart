@@ -36,3 +36,5 @@ Clone the repository:
 ```bash
 git clone https://github.com/jeffersonRibeiro/react-shopping-cart.git
 cd react-shopping-cart
+
+Feel free to fork this repo, just give a star to this repo
