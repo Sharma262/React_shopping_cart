@@ -1,63 +1,59 @@
-## 🛍️ Simple ecommerce cart application [![CircleCI](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart.svg?style=svg)](https://circleci.com/gh/jeffersonRibeiro/react-shopping-cart)
+# 🛍️ Simple Ecommerce Cart Application  
 
 <p align="center">
-
-  <img src="./readme-banner.png">
+  <img src="./readme-banner.png" alt="React Shopping Cart Banner" />
 </p>
 
-## Basic Overview - [Live Demo](https://react-shopping-cart-67954.firebaseapp.com/)
+## ✨ Overview
 
-<p align="left">
+This project is a simple yet functional ecommerce cart built with **React**, **TypeScript**, and **Styled Components**, using **React Hooks** and the **Context API** for state management. It demonstrates how to create a smooth and scalable user experience with instant UI updates in modern ecommerce platforms.
 
-  <img src="./work-in-the-netherlands.png" width="380" height="90">
-</p>
+---
 
-✈️ [Follow Jeremy Akeze](https://www.linkedin.com/in/jeremy-akeze-9542b396/)
+## 🚀 Features
 
-This simple shopping cart prototype shows how React with Typescript, React hooks, react Context and Styled Components can be used to build a friendly user experience with instant visual updates and scaleable code in ecommerce applications.
+✅ Add and remove products from a floating cart  
+✅ Filter products by available sizes using Context API  
+✅ Fully responsive design for all device sizes  
+✅ Instant UI updates without page reloads  
+✅ Clean and scalable project structure  
+✅ Easy to maintain and extend  
 
-#### Features
+---
 
-- Add and remove products from the floating cart using Context Api
-- Filter products by available sizes using Context Api
-- Responsive design
+## 🛠️ Getting Started
 
-<!--
-## Getting started
+### 📦 Prerequisites
 
-Try playing with the code on CodeSandbox :)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
 
-[![Edit app](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/74rykw70qq)
- -->
+### 🔧 Installation
 
-## Build/Run
+Clone the repository:
 
-#### Requirements
+```bash
+git clone https://github.com/Sharma262/React_shopping_cart.git
+cd React_shopping_cart
 
-- Node.js
-- NPM
+##  Running the App
 
-```javascript
+To start the development server:
+$ npm start
 
-/* First, Install the needed packages */
-npm install
+To build the production version:
+$ npm run build
 
-/* Then start the React app */
-npm start
+To run tests:
+$ npm run test
 
-/* To run the tests */
-npm run test
 
-```
+📁 Project Structure
 
-### Copyright and license
-
-The MIT License (MIT). Please see License File for more information.
-
-<br/>
-<br/>
-
-<p align="center"><img src="http://www.jeffersonribeiro.com/assets/img/apple-icon-180x180.png" width="35" height="35"/></p>
-<p align="center">
-<sub>A little project by <a href="http://www.jeffersonribeiro.com/">Jefferson Ribeiro</a></sub>
-</p>
+src/
+├── components/        # Reusable components
+├── context/           # Global state using Context API
+├── pages/             # Main pages
+├── styles/            # Global and component styles
+├── utils/             # Helper functions
+└── App.tsx            # Root component
